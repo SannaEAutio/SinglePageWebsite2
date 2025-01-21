@@ -5,6 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple HTML Page</title>
+    <style>
+        /* Perus tyylit HTML:lle */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,6 +84,14 @@
     <footer>
         <p>&copy; 2025 Simple HTML Page. All rights reserved.</p>
     </footer>
+
+    <script>
+        // JavaScript-koodi, jos haluat lisätä toiminnallisuuksia
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Page is loaded and ready!');
+            // Voit lisätä lisää JavaScript-toimintoja tähän tiedostoon
+        });
+    </script>
 </body>
 
 </html>
